@@ -144,7 +144,6 @@ public class ArrayTools{
 		for (int index = 0; index < inputArr.length; index++){ // traverse through each element of array
 			if (inputArr[index] == value){	// check if value at current index matches with the input value
 				return true;	// return true if value matches
-				break; // breaks the loop, go to next line of code
 			}
 		}
 		return false;
